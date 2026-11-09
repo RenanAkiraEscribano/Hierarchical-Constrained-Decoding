@@ -1,0 +1,172 @@
+[
+  {
+    "dataset": "CUB-200-2011",
+    "levels": [
+      "order",
+      "family",
+      "genus",
+      "scientific_name"
+    ],
+    "class_counts": [
+      13,
+      38,
+      127,
+      200
+    ],
+    "mapping_levels": [
+      "order",
+      "family",
+      "genus",
+      "scientific_name"
+    ],
+    "valid_tuples_path": "hierarchies/CUB-200-2011.valid_tuples_train.csv",
+    "valid_tuples_sha256": "e7166cbb5599dee8de747449ba3cdc36922bfed762912d444ec5c14704209f90",
+    "mapping_path": "hierarchies/CUB-200-2011.mapping.json",
+    "mapping_sha256": "500d89d50b6d9893822d0f24b0a5ce2bd639bb132b8fae0f8140d574adb63727",
+    "tuple_count": 200,
+    "tuple_order": "numeric_lexicographic",
+    "ontology_splits": [
+      "train"
+    ],
+    "metadata_sha256": "178996d66a4bdc378a630eb1e25074daceb77ad53e3d22be51fa3010b37de362",
+    "metadata_row_counts": {
+      "test": 5794,
+      "train": 4795,
+      "val": 1199
+    }
+  },
+  {
+    "dataset": "EU-Moths",
+    "levels": [
+      "family",
+      "genus",
+      "species"
+    ],
+    "class_counts": [
+      11,
+      143,
+      200
+    ],
+    "mapping_levels": [
+      "family",
+      "genus",
+      "species"
+    ],
+    "valid_tuples_path": "hierarchies/EU-Moths.valid_tuples_train.csv",
+    "valid_tuples_sha256": "59fd177520d74325bcfcf56bd265c209c164e6299d2957c293a963965cd8e87c",
+    "mapping_path": "hierarchies/EU-Moths.mapping.json",
+    "mapping_sha256": "5ab120a5cb7222e907904ed68b942418a2c58284d09d4cc9c443b73f0bb402da",
+    "tuple_count": 200,
+    "tuple_order": "numeric_lexicographic",
+    "ontology_splits": [
+      "train"
+    ],
+    "metadata_sha256": "8f904dc6d2114d55dfcdcf388ba22f9f553c4933af7e82f186a2002728df37a0",
+    "metadata_row_counts": {
+      "val": 551,
+      "train": 1102,
+      "test": 552
+    }
+  },
+  {
+    "dataset": "FGVC-Aircraft",
+    "levels": [
+      "manufacturer",
+      "family",
+      "variant"
+    ],
+    "class_counts": [
+      30,
+      70,
+      100
+    ],
+    "mapping_levels": [
+      "manufacturer",
+      "family",
+      "variant"
+    ],
+    "valid_tuples_path": "hierarchies/FGVC-Aircraft.valid_tuples_train.csv",
+    "valid_tuples_sha256": "4302cf0f4a36a92962b6ccca774f0303e2d387a870ed4799fe6bb3016df5523d",
+    "mapping_path": "hierarchies/FGVC-Aircraft.mapping.json",
+    "mapping_sha256": "9289d6eb2e71d862a934f88082b86330bec278ea53ac39452ab87317ad665241",
+    "tuple_count": 100,
+    "tuple_order": "numeric_lexicographic",
+    "ontology_splits": [
+      "train"
+    ],
+    "metadata_sha256": "e28dd6d4b4f9fc510dcde38394fdb71a1d38640ead53b9d60ec7fc09f6ce8d46",
+    "metadata_row_counts": {
+      "train": 3334,
+      "val": 3333,
+      "test": 3333
+    }
+  },
+  {
+    "dataset": "Stanford-Cars-196",
+    "levels": [
+      "type",
+      "make",
+      "model"
+    ],
+    "class_counts": [
+      9,
+      49,
+      196
+    ],
+    "mapping_levels": [
+      "type",
+      "make",
+      "model+year"
+    ],
+    "valid_tuples_path": "hierarchies/Stanford-Cars-196.valid_tuples_train.csv",
+    "valid_tuples_sha256": "c48c64d8b37432b1106e472101174468d647b607384b011b5c0da9c0b4f697b3",
+    "mapping_path": "hierarchies/Stanford-Cars-196.mapping.json",
+    "mapping_sha256": "3591cced7168b0c6f19a2810b7ad677643ecb45d1bf2e80efeff204d6ceb128f",
+    "tuple_count": 196,
+    "tuple_order": "numeric_lexicographic",
+    "ontology_splits": [
+      "train"
+    ],
+    "metadata_sha256": "ffffdca425e556011de1e97928d6f554f427d4e7c59cea85e871f936f30d3712",
+    "metadata_row_counts": {
+      "train": 6598,
+      "val": 1546,
+      "test": 8041
+    }
+  },
+  {
+    "dataset": "UFPR-VeSV",
+    "levels": [
+      "type",
+      "make",
+      "model"
+    ],
+    "class_counts": [
+      14,
+      26,
+      136
+    ],
+    "mapping_levels": [
+      "type",
+      "make",
+      "model"
+    ],
+    "valid_tuples_path": "hierarchies/UFPR-VeSV.valid_tuples_all.csv",
+    "valid_tuples_sha256": "6c869f170d9fa367313b54f27528e2dff0cba4a2c5e2e92c2e53bd95fd53e650",
+    "mapping_path": "hierarchies/UFPR-VeSV.mapping.json",
+    "mapping_sha256": "42d5bd9034546b37a2fd195856d378c320bb6ebf0dfc818014425dd36ec607fb",
+    "tuple_count": 225,
+    "tuple_order": "numeric_lexicographic",
+    "ontology_splits": [
+      "train",
+      "val",
+      "test"
+    ],
+    "metadata_sha256": "c6376f458de550724ec3f280462ebbf85833a69b747d733f488c35a6a8c44a1e",
+    "metadata_row_counts": {
+      "train": 14845,
+      "val": 5025,
+      "test": 5075
+    }
+  }
+]
